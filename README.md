@@ -14,17 +14,24 @@
 Comprovem la IP amb l’ordre ip a i revisem la connexió a la xarxa i la porta d’enllaç amb ip  
 route.
 
+![Configuració dels discs a VirtualBox](img/1.png)
+
 ### 2. Netdiscover – mode actiu
 
 Comprovem quins dispositius hi ha a la xarxa fent un escaneig amb netdiscover en mode  
 actiu, enviant peticions directament per detectar totes les IPs que responen dins del rang  
 indicat.
 
+![Configuració dels discs a VirtualBox](img/1.png)
+
+
 ### 3. Netdiscover – mode passiu
 
 Comprovem els dispositius connectats a la xarxa utilitzant netdiscover en mode passiu,  
 escoltant el trànsit sense enviar peticions i mostrant només els equips que es detecten de  
 manera natural.
+
+![Configuració dels discs a VirtualBox](img/1.png)
 
 ### 4. Comparació actiu vs passiu
 
@@ -33,13 +40,19 @@ els dispositius possibles, mentre que en el mode passiu només escoltem el tràn
 la xarxa i detectem únicament els equips que es comuniquen en aquell moment, sense enviar  
 cap petició.
 
+![Configuració dels discs a VirtualBox](img/1.png)
+
 ### 5. Nmap a un equip de la xarxa (servidor / host)
 
 Analitzem els equips de la xarxa fent un escaneig amb nmap per identificar quins serveis i ports  
 tenen oberts i obtenir una idea general del sistema que està funcionant en cada màquina.
+
+![Configuració dels discs a VirtualBox](img/1.png)
 
 ### 6. Nmap al router (gateway)
 
 Hem intentat escanejar el router amb Nmap utilitzant l’opció \-A, però el dispositiu no respon a  
 l’exploració. Això indica que el router bloqueja escanejos de xarxa, això pot ser degut a motius  
 de seguretat o tallafocs, i per aquest motiu no s’han pogut identificar serveis ni ports oberts.  
+
+![Configuració dels discs a VirtualBox](img/1.png)
