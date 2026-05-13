@@ -52,3 +52,4 @@ tenen oberts i obtenir una idea general del sistema que està funcionant en cada
 ### 6. Nmap al router (gateway)
 
 ![Configuració dels discs a VirtualBox](img/6.png)
+![Configuració dels discs a VirtualBox](img/7.png)
